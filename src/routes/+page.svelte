@@ -22,7 +22,6 @@
     }
 
     let result: number;
-  
 </script>
 <div class=page>
 {#if !result}
@@ -34,12 +33,6 @@
 </div>
 
 <style>
-    :global(body) {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-        font-family: 'Arial'
-    }
 
     .page {
         display: flex;
@@ -59,5 +52,6 @@
         padding: 1em;
         font-size: 1.5em;
         font-weight: bold;
+        cursor: pointer;
     }
 </style>
